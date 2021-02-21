@@ -1,3 +1,6 @@
+//
+// Created by Annan Shu on 2021/2/21.
+//
 #include <opencv2/opencv.hpp>
 #include <iostream>
 using namespace std;
@@ -46,8 +49,4 @@ void threshold_demo(int, void*){
     imshow(output_win, dst);
 }
 
-int main()
-{
-    test01();
-    return 0;
-}
+
