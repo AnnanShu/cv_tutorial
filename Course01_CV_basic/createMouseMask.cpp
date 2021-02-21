@@ -1,3 +1,6 @@
+//
+// Created by Annan Shu on 2021/2/21.
+//
 #include "opencv2/imgproc.hpp"
 #include "opencv2/imgcodecs.hpp"
 #include "opencv2/highgui.hpp"
@@ -84,8 +87,3 @@ void test01()
     waitKey(0);
 }
 
-int main()
-{
-    test01();
-    return 0;
-}
